@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Voice Recognition</title>
+
+    <link rel="stylesheet" href="voice.css" />
+  </head>
+
+  <body>
+    <h1>Voice Recognition</h1>
+        <div>
+            <ol>
+                <li>Say "color" to change the color of the circle. <b>Say "pink" to change to circle color to pink</b></li>
+                <li>Say "size" to change the size of the circle (from 1 to 300). (Not able to do it)</li>
+                <li>Say "Help" if you don't know how to play.</li>
+                <li>Press the "Speak" button to begin speech recognition and stop to end.</li>
+              </ol> 
+            </div>
+       <br>
+        
+       <audio id = "help" src="help.m4a" type="audio/mpeg">
+    </audio>
+
+       <canvas id="mycanvas" width="600" height="600" style="background-color: #87CEEB;""></canvas><br>
+       <button id ="btn" type = "button">Speak</button>
+ 
+      
+        
+  
+
+    <script src="voice.js"></script>
+
+    <br><a href="https://waimanchow.github.io/waimanchowcisc3610.github.io./main.html">Return to main page</a>
+  </body>
+</html>

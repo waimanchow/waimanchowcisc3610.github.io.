@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <script src="text.js" async></script>
+<h2>Text-Project</h2>
+
+<p>Enter your name and preferences to get changes</p>
+
+<form  id="TheForm" oninput="x.value=parseInt(a.value)">
+
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+  
+  <label for="bgcolor">Select your background color:</label>
+  <input type="color" id="bgcolor" name="bgcolor" value="#ffffff"><br>
+  
+  <label for="textcolor">Select your text color:</label>
+  <input type="color" id="textcolor" name="textcolor" value="#000000"><br><br>
+  
+  <label for="a">Text Size: </label>
+12
+<input type="range" id="a" name="a" min="12" max="48" value=12>
+48
+=
+  <output name="x" for="a"></output>
+  <br><br>
+  
+  <input type="radio" id="font" name="font" value="Arial">
+  <label for="font">Arial</label><br>
+  <input type="radio" id="font" name="font" value="Times New Roman">
+  <label for="font">Times New Roman</label><br>
+  <input type="radio" id="font" name="font" value="Courier New">
+  <label for="font">Courier New</label><br><br>
+  
+<input type="button" id="colorButton" value="change" onclick="drawing()">
+
+  <input type="reset"><br><br>
+
+</form> 
+
+<p id="demo"></p><br>
+
+<a href="https://waimanchow.github.io/waimanchowcisc3610.github.io./main.html">Return to main page</a>
+</body>
+</html>
+
+

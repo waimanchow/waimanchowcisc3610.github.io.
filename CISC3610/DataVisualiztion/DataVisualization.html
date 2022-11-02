@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+<title>Data Visualization</title>
+<meta charset="utf-8" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<h1>Data Visualization</h1>
+<canvas id="doughnut-chart" width="800" height="200"></canvas>
+<canvas id="bar-chart-horizontal" width="800" height="250"></canvas>
+<script>
+new Chart(document.getElementById("doughnut-chart"), {
+    type: 'doughnut',
+    data: {
+      labels: ["Diseases of Heart", "Malignant Neoplasms", "Diabetes Mellitus", "Cerebrovascular Disease", "Essential Hypertension and Renal Diseases", "Mental and Behavioral Disorders", "Assault", "Accidents Except Drug Poisoning", "Alzheimer's Disease","Influenza (Flu) and Pneumonia"],
+      datasets: [
+        {
+          label: "Deaths (count)",
+          backgroundColor: ["#C47D6E", "#E7BE65","#ECE58C","#AAD17D","#92DFB5","#92DFD5", "#92CADF","#92A1DF","#DF92DD","#DF92AD"],
+          data: [39,35,14,9,5,3,3,3,3,3]
+        }
+      ]
+    },
+    options: {
+      title: {
+        display: true,
+        text: 'New York City Leading Causes of Death in 2019 (FEMALE-ASIAN AND PACIFIC ISLANDER) by WaiMan Chow'
+      }
+    }
+});
+
+
+new Chart(document.getElementById("bar-chart-horizontal"), {
+    type: 'horizontalBar',
+    data: {
+      labels: ["Chloe", "Olivia", "Mia", "Emma", "Sophia", "Amelia", "Charlotte", "Emily", "Grace", "Isabella"],
+      datasets: [
+        {
+          label: "Population (count)",
+          backgroundColor: ["#C47D6E", "#E7BE65","#ECE58C","#AAD17D","#92DFB5","#92DFD5", "#92CADF","#92A1DF","#DF92DD","#DF92AD"],
+          data: [131,109,88,71,71,60,57,53,48,43]
+        }
+      ]
+    },
+    options: {
+      legend: { display: false },
+      title: {
+        display: true,
+        text: 'Popular Baby Names in 2019 (FEMALE-ASIAN AND PACIFIC ISLANDER) by WaiMan Chow'
+      }
+    }
+});
+</script>
+<a href="https://waimanchow.github.io/waimanchowcisc3610.github.io./main.html">Return to main page</a>
+
+</body>
+</html>
+
