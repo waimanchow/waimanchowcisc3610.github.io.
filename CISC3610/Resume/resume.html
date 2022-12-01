@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    body{
+        padding: 10px;
+    }
+    .carousel-item{
+        height: 600px;
+    }</style>
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+        <a class="navbar-brand" href="#">Resume - WaiMan Chow</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading1">Contact Info</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading2">Summary</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">More Info</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#scrollspyHeading3">Education</a></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading4">Experience</a></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading5">Skills</a></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading6">Activies & Honors</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading7">Portfolio</a>
+          </li>
+        </ul>
+        
+      </nav>
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+
+
+        <h3 id="scrollspyHeading1">Contact Info</h3>
+        <p>waiman1999c@gmail.com | 917-325-1383 |  www.linkedin.com/in/waimanchow</p>
+
+        <h3 id="scrollspyHeading2">Summary</h3>
+        <p>3 years of customer service experience, working to resolve issues and solve problems</p>
+        <p>Intermediate experience with MySQL, HTML, and Basic Java</p>
+        <p>Looking for IT fields internships and entry level positions</p>
+
+
+        <h3 id="scrollspyHeading3">Education</h3>
+        <h5>BS, Information System, CUNY Brooklyn College- anticipated January 2023</h5>
+            <p>GPA: 3.77/ 4.0; Dean List: Spring 2021-Spring 2022
+            
+            Relevant Courses:
+            Data Structures, Discrete Math, ,Computer Architecture, Multimedia Programming, Database Systems, 
+            Design & Implementation Web application, and Java Programming</p>
+            
+            <h5>AS. Biology, Allied Health CUNY Kingsborough Community College- graduated January 2021</h5>
+            <p>GPA: 3.5</p>
+            
+        <h3 id="scrollspyHeading4">Experience</h3>
+            <h5> Medical Assistant | KEITH CHANG MD, PLLC, New York | October 2019 – September 2022</h5>
+            <p>Assisted optometrists by performing patient screenings, data entry, and vision tests, which allowed doctors to focus on the health concerns of their patients.</p>
+                <p>Performed other clerical duties such as greeting patients, answering phones and scheduling appointments, resulting in improved patient satisfaction and a decrease in overhead costs.</p>
+                    <p>Assisted 30+ patients during each 8-hour shift</p>
+                        <p>Trained 10 new hires employees to fulfill various roles</p>
+            
+            <h5> Library Assistant | Kingsborough Community College, New York| October 2018 - June 2019</h5>
+            <h6>Federal Work Study Libraries Employment</h6>
+            <p>Helped students and faculty locate library resources efficiently</p>
+                <p>Shelved and organized books, magazines, movies, etc</p>            
+        </p>
+
+        <h3 id="scrollspyHeading5">Skills</h3>
+        <p>Programming: Java, HTML, CSS, JavaScript, PHP, and MySQL</p>
+        <p>Proficient Microsoft Office PowerPoint, Word, Outlook, and Excel</p>
+
+        <h3 id="scrollspyHeading6">Activies & Honors</h3>
+            <h5>BS, Information System, CUNY Brooklyn College</h5>
+            <p>Dean List: Spring 2021-Spring 2022</p>
+    
+      </div>
+
+      <h3 id="scrollspyHeading7">Portfolio</h3>
+
+      <div class="alert alert-warning" role="alert">
+        Check out my project!
+      </div>
+
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/Portfolio1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/Portfolio2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/Portfolio3.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+<br>
+      <a href="https://waimanchow.github.io/waimanchowcisc3610.github.io./main.html">Return to main page</a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
